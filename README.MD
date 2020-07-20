@@ -1,17 +1,14 @@
-# Install
-go get 
-
 # Examples
 
-## Linux
+## Linux/bash
 ```shell
 cp ~/.bash_history bash-history.txt
-counter ~/bash-history.txt
+go run main.go ~/bash-history.txt
 ```
 
-## Windows
+## Windows/cmd
 ```shell
 doskey /HISTORY > history.txt
-counter history.txt
+go run main.go history.txt
 ```
 
